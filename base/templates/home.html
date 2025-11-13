@@ -40,7 +40,7 @@
             <div class="home-content">
                 <h6 class="poppinss">Hi, I'm</h6>
                 <h1 class="t-white">Vishrut Rana</h1>
-                <h4 class="poppinss">Software Engineer</h4>
+                <h4 class="poppinss"><span class="text-anime"></span></h4>
                 <a href="{% static 'pdf/Resume.pdf' %}"  target="_blank">
                     <button class="btn poppins">Resume</button></a>
                     <a class="btn live poppins" id="hireme" href="https://discord.gg/vHxSM4dB"target="_blank">Let's Talk</a>
@@ -217,7 +217,16 @@
                 
 
     </footer>
-     
+     <script>
+        var typed = new Typed(".text-anime", {
+            strings: ["Front-End-Developer.", "Back-End Developer.", "Programmer.", "YouTuber.", "Basic Cyber Security Expert.", "Genrative AI Expert.", "Image / Video Editor."],
+            typeSpeed: 50,
+            backSpeed: 50,
+            backDelay: 1000,
+            loop: true
+        })
+    </script>
 </body> 
 </html>
+
 
